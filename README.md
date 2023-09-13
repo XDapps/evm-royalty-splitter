@@ -14,7 +14,7 @@ You must create a .env file with a seed phrase for an address containing enough 
 
 ## Usage
 
-Replace the publishers and percentages in the variables shown below. You may have as many addresses as you like in the publishers array so long as the length of the percentages array matches the length of the publishers array. The total sum of the percentages array must equal 10,000.
+Replace the publishers and percentages in the deploy file variables shown below. You may have as many addresses as you like in the publishers array so long as the length of the percentages array matches the length of the publishers array. The total sum of the percentages array must equal 10,000.
 
 ```typescript
 const publishers = [user1.address, user2.address, user3.address, user4.address];
