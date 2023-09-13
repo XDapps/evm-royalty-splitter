@@ -31,8 +31,7 @@ const chainIds = {
 const MNEMONIC = process.env.MNEMONIC || "";
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "";
 const INFURA_API_KEY = process.env.INFURA_API_KEY || "";
-const COSTON_RPC_URL = process.env.COSTON_RPC_URL_HTTP || "";
-const sgbURL: string = "http://3.15.244.209:9650/ext/bc/C/rpc";
+const sgbURL: string = "https://songbird-api.flare.network/ext/bc/C/rpc";
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
 task("accounts", "Prints the list of accounts", async (args, hre) => {
