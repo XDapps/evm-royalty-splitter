@@ -1,10 +1,6 @@
 //SPDX-License-Identifier: Unlicense
 pragma solidity 0.8.24;
 
-import "@openzeppelin/contracts/utils/Address.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/utils/Context.sol";
-import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract SplitRoyalty {
